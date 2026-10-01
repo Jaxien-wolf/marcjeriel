@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #f5f5f5;
+	color: #111;
+}
+
+h1 {
+	margin: 24px 0 18px;
+	text-align: center;
+	font-size: clamp(2rem, 4vw, 4rem);
+}
+
+.gallery-scroll {
+	overflow-x: auto;
+}
+
+.gallery-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.sport-gallery {
+	display: flex;
+	gap: 18px;
+	align-items: flex-start;
+	margin: 0 auto;
+	flex-wrap: nowrap;
+}
+
+.sport-gallery figure {
+	flex: 0 0 200px;
+	width: 200px;
+	margin: 0;
+	text-align: center;
+}
+
+.sport-gallery img {
+	display: block;
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.sport-gallery figcaption {
+	margin-top: 8px;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.gallery-stack {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 18px 12px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.sport-gallery {
+		display: contents;
+	}
+
+	.sport-gallery figure {
+		min-width: 0;
+		width: auto;
+	}
+
+	.sport-gallery img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 4 / 5;
+		object-fit: cover;
+	}
+}
