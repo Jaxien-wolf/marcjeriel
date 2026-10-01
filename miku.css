@@ -1,3 +1,9 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+	background: url("885168501782684579.jpg") center bottom / 300px 300px fixed no-repeat;
+}
+
 .miku-page {
 	box-sizing: border-box;
 	width: min(100% - 32px, 800px);
@@ -11,5 +17,28 @@
 	aspect-ratio: 16 / 9;
 	background: #111;
 	object-fit: contain;
+}
+
+.miku-chat {
+	position: fixed;
+	top: 50%;
+	right: max(16px, calc((100vw - 800px) / 2 - 216px));
+	width: 160px;
+	transform: translateY(-50%);
+}
+
+.miku-chat img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 1248px) {
+	.miku-chat {
+		position: static;
+		width: min(180px, 50vw);
+		margin: 16px 0 0 auto;
+		transform: none;
+	}
 }
 
