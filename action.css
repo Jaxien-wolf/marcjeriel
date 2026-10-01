@@ -1,0 +1,37 @@
+.gallery-scroll {
+	overflow-x: auto;
+}
+
+.gallery-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	width: max-content;
+	margin: 0 auto;
+}
+
+.action-gallery {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 18px;
+	width: max-content;
+}
+
+.action-gallery figure {
+	flex: 0 0 200px;
+	width: 200px;
+	margin: 0;
+}
+
+.action-gallery img {
+	display: block;
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.action-gallery figcaption {
+	margin-top: 8px;
+	text-align: center;
+}
