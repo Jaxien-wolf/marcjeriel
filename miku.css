@@ -26,26 +26,4 @@ body {
 	object-fit: contain;
 }
 
-.miku-chat {
-	position: fixed;
-	top: 50%;
-	right: max(16px, calc((100vw - 800px) / 2 - 216px));
-	width: 160px;
-	transform: translateY(-50%);
-}
-
-.miku-chat img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-@media (max-width: 1248px) {
-	.miku-chat {
-		position: static;
-		width: min(180px, 50vw);
-		margin: 16px 0 0 auto;
-		transform: none;
-	}
-}
 
