@@ -38,6 +38,17 @@
 }
 
 @media (max-width: 600px) {
+	body {
+		margin: 0;
+	}
+
+	h1 {
+		margin: 20px 12px 18px;
+		font-size: clamp(1.5rem, 7vw, 2rem);
+		line-height: 1.1;
+		text-align: center;
+	}
+
 	.gallery-scroll {
 		overflow-x: visible;
 	}
@@ -48,6 +59,7 @@
 		gap: 18px 12px;
 		width: 100%;
 		box-sizing: border-box;
+		padding-inline: 12px;
 	}
 
 	.action-gallery {
@@ -63,5 +75,15 @@
 		width: 100%;
 		height: auto;
 		aspect-ratio: 4 / 5;
+	}
+
+	figcaption {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		min-height: 2.5em;
+		margin-top: 8px;
+		line-height: 1.25;
+		text-align: center;
 	}
 }

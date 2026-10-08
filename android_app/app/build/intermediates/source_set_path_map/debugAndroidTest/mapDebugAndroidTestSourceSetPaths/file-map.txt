@@ -1,0 +1,5 @@
+com.example.androidapp.test.app-core-1.6.1-0 /Users/marcjeriel/.gradle/caches/9.6.0/transforms/74b0180af688ee6280a989dfc31037ce/transformed/core-1.6.1/res
+com.example.androidapp.test.app-androidTest-1 /Users/marcjeriel/Documents/GitHub/my-first-repo/marcjeriel/android_app/app/build/generated/res/resValues/androidTest/debug
+com.example.androidapp.test.app-mergeDebugAndroidTestResources-2 /Users/marcjeriel/Documents/GitHub/my-first-repo/marcjeriel/android_app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.androidapp.test.app-mergeDebugAndroidTestResources-3 /Users/marcjeriel/Documents/GitHub/my-first-repo/marcjeriel/android_app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.androidapp.test.app-debugAndroidTest-4 /Users/marcjeriel/Documents/GitHub/my-first-repo/marcjeriel/android_app/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

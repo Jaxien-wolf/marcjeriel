@@ -1,0 +1,76 @@
+.gallery-scroll {
+	overflow-x: auto;
+}
+
+.gallery-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.anime-gallery {
+	display: flex;
+	gap: 18px;
+	align-items: flex-start;
+	margin: 0 auto;
+	flex-wrap: nowrap;
+}
+
+.anime-gallery figure {
+	flex: 0 0 200px;
+	width: 200px;
+	margin: 0;
+	text-align: center;
+}
+
+.anime-gallery img {
+	display: block;
+	width: 200px;
+	height: 250px;
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+}
+
+.anime-gallery a {
+	display: block;
+}
+
+.anime-gallery figcaption {
+	margin-top: 8px;
+}
+
+.top-gallery .wolf-card {
+	margin-top: 0;
+	margin-left: 0;
+	align-self: auto;
+}
+
+.second-row {
+	padding-top: 4px;
+}
+
+@media (max-width: 600px) {
+	.gallery-stack {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 18px 12px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.anime-gallery {
+		display: contents;
+	}
+
+	.anime-gallery figure {
+		min-width: 0;
+		width: auto;
+	}
+
+	.anime-gallery img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 4 / 5;
+		object-fit: cover;
+	}
+}
