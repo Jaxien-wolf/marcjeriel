@@ -1,76 +1,52 @@
-body {
-	margin: 0;
-	font-family: Arial, sans-serif;
-	background: #f5f5f5;
-	color: #111;
-}
-
-h1 {
-	margin: 24px 0 18px;
-	text-align: center;
-	font-size: clamp(2rem, 4vw, 4rem);
-}
-
-.gallery-scroll {
-	overflow-x: auto;
-}
-
-.gallery-stack {
-	display: flex;
-	flex-direction: column;
-	gap: 28px;
-}
-
-.adventure-gallery {
-	display: flex;
-	gap: 18px;
-	align-items: flex-start;
-	margin: 0 auto;
-	flex-wrap: nowrap;
-}
-
-.adventure-gallery figure {
-	flex: 0 0 200px;
-	width: 200px;
-	margin: 0;
-	text-align: center;
-}
-
-.adventure-gallery img {
-	display: block;
-	width: 200px;
-	height: 250px;
-	aspect-ratio: 4 / 5;
-	object-fit: cover;
-}
-
-.adventure-gallery figcaption {
-	margin-top: 8px;
-	text-align: center;
-}
-
-@media (max-width: 600px) {
-	.gallery-stack {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 18px 12px;
-		width: 100%;
-		box-sizing: border-box;
-	}
-
-	.adventure-gallery {
-		display: contents;
-	}
-
-	.adventure-gallery figure {
-		min-width: 0;
-		width: auto;
-	}
-
-	.adventure-gallery img {
-		width: 100%;
-		height: auto;
-		aspect-ratio: 4 / 5;
-		object-fit: cover;
-	}
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="action.css">
+	<title>Action Recommendations</title>
+</head>
+<body>
+	<h1>Action Recommendations</h1>
+	<div class="gallery-scroll">
+		<div class="gallery-stack">
+			<div class="action-gallery">
+				<figure>
+					<img src="heneral-luna-660x660 copy.jpg" alt="Heneral Luna poster">
+					<figcaption>Heneral Luna</figcaption>
+				</figure>
+				<figure>
+					<img src="images-6.jpeg" alt="Shadow of Justice poster">
+					<figcaption>Shadow of Justice</figcaption>
+				</figure>
+				<figure>
+					<img src="images-7.jpeg" alt="John Wick poster">
+					<figcaption>John Wick</figcaption>
+				</figure>
+				<figure>
+					<img src="97a814c9-7931-48a6-ab29-4b8d3f3a66bf.jpg" alt="Anaconda poster">
+					<figcaption>Anaconda</figcaption>
+				</figure>
+			</div>
+			<div class="action-gallery">
+				<figure>
+					<img src="MV5BYzdjMTgwM2MtM2MwYy00YmNjLThhMjAtYjVlOGM4NDMwNmMwXkEyXkFqcGc@._V1_.jpg" alt="The Kingdom poster">
+					<figcaption>The Kingdom</figcaption>
+				</figure>
+				<figure>
+					<img src="MV5BOWFlZjY1NzctMmVhYS00NTI0LWEyYWYtYWU5NmJiMjFkZjVhXkEyXkFqcGc@._V1_.jpg" alt="The Delivery poster">
+					<figcaption>The Delivery</figcaption>
+				</figure>
+				<figure>
+					<img src="MV5BOGUxM2Q0MzItZDRmYy00ZWY1LWFiNzctNmY3Njg2ODJjZWNmXkEyXkFqcGc@._V1_.jpg" alt="The Raid Redemption poster">
+					<figcaption>The Raid Redemption</figcaption>
+				</figure>
+				<figure>
+					<img src="images-8.jpeg" alt="Born to Fly poster">
+					<figcaption>Born to Fly</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

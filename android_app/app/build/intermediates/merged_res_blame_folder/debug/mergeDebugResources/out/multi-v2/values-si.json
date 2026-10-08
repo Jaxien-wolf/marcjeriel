@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidapp-mergeDebugResources-29:/values-si/values-si.xml",
+            "outputFile": "com.example.androidapp-mergeDebugResources-28:/values-si/values-si.xml",
             "map": [
                 {
-                    "source": "/Users/marcjeriel/.gradle/caches/9.6.0/transforms/0e66b3b1b3ab8194d5ec1b56f326eb26/transformed/core-1.13.1/res/values-si/values-si.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,157,260,365,470,569,673,787",
-                        "endColumns": "101,102,104,104,98,103,113,100",
-                        "endOffsets": "152,255,360,465,564,668,782,883"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,116",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3442,3544,3647,3752,3857,3956,4060,9792",
-                        "endColumns": "101,102,104,104,98,103,113,100",
-                        "endOffsets": "3539,3642,3747,3852,3951,4055,4169,9888"
-                    }
-                },
-                {
-                    "source": "/Users/marcjeriel/.gradle/caches/9.6.0/transforms/a1dd68d0db776fb1bc0aa945925f1dbc/transformed/material-1.12.0/res/values-si/values-si.xml",
+                    "source": "/Users/marcjeriel/.gradle/caches/9.6.0/transforms/bde07898a2385dd2a6212e8e1c94e93d/transformed/material-1.12.0/res/values-si/values-si.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "/Users/marcjeriel/.gradle/caches/9.6.0/transforms/89a61a2d8aa13751304295a142b2e76f/transformed/appcompat-1.7.0/res/values-si/values-si.xml",
+                    "source": "/Users/marcjeriel/.gradle/caches/9.6.0/transforms/08230f975de42f12bf8e83ed26a696e9/transformed/core-1.13.1/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,260,365,470,569,673,787",
+                        "endColumns": "101,102,104,104,98,103,113,100",
+                        "endOffsets": "152,255,360,465,564,668,782,883"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,116",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3442,3544,3647,3752,3857,3956,4060,9792",
+                        "endColumns": "101,102,104,104,98,103,113,100",
+                        "endOffsets": "3539,3642,3747,3852,3951,4055,4169,9888"
+                    }
+                },
+                {
+                    "source": "/Users/marcjeriel/.gradle/caches/9.6.0/transforms/f98a14cbca6a749cc2bd95f031e024cb/transformed/appcompat-1.7.0/res/values-si/values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
