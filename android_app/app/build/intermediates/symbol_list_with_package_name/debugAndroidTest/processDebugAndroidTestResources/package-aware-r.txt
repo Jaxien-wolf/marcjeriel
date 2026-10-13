@@ -1,3 +1,0 @@
-com.example.androidapp.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
